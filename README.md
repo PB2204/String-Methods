@@ -1,7 +1,7 @@
 # String Methods Library
 
-![GitHub](https://img.shields.io/github/license/pb2204/string-methods)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/pb2204/string-methods)
+![GitHub](https://img.shields.io/github/license/pb2204/String-Methods)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/pb2204/String-Methods)
 
 ## Table of Contents
 - [Project Description](#project-description)
