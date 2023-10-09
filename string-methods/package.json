@@ -1,6 +1,6 @@
 {
     "name": "node-string-methods",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "A JavaScript library for emulating Python's string methods",
     "main": "src/index.js",
     "scripts": {

@@ -1,7 +1,6 @@
 # String Methods Library
 
-![GitHub](https://img.shields.io/github/license/pb2204/string-methods)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/pb2204/string-methods)
+A JavaScript library for emulating Python's string methods.
 
 ## Table of Contents
 - [Project Description](#project-description)
@@ -613,7 +612,7 @@ const result = zeroFill(num, width);
 console.log(result); // Output: '00042'
 ```
 ## Examples
-For more examples and detailed documentation, please refer to the [examples](./examples) directory.
+For more examples and detailed documentation, please refer to the [docs](./docs/) directory.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
@@ -633,5 +632,5 @@ For any questions or feedback, feel free to contact me:
 - Email: [Pabitra Banerjee](mailto:rockstarpabitra2204@gmail.com)
 - GitHub: [PB2204](https://github.com/pb2204)
 
-## Happy Coding!
+## Happy Coding 🚀
 We hope you find the String Methods Library useful in your projects. Happy coding!
