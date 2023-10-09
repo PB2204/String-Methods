@@ -633,5 +633,5 @@ For any questions or feedback, feel free to contact me:
 - Email: [Pabitra Banerjee](mailto:rockstarpabitra2204@gmail.com)
 - GitHub: [PB2204](https://github.com/pb2204)
 
-## Happy Coding!
+## Happy Coding 🚀
 We hope you find the String Methods Library useful in your projects. Happy coding!
