@@ -38,7 +38,7 @@ To use the library, import the desired modules in your JavaScript code. Here are
 **Usage:**
 
 ```javascript
-const { capitalize } = require('string-methods');
+const { capitalize } = require('node-string-methods');
 
 const str = 'hello, world!';
 const capitalized = capitalize(str);
@@ -52,7 +52,7 @@ console.log(capitalized); // Output: 'Hello, world!'
 **Usage:**
 
 ```javascript
-const { caseFold } = require('string-methods');
+const { caseFold } = require('node-string-methods');
 
 const str = 'lEtS CaSeFoLd';
 const caseFolded = caseFold(str);
@@ -66,7 +66,7 @@ console.log(caseFolded); // Output: 'lets casefold'
 **Usage:**
 
 ```javascript
-const { center } = require('string-methods');
+const { center } = require('node-string-methods');
 
 const str = 'centered';
 const centeredStr = center(str, 12, '-');
@@ -80,7 +80,7 @@ console.log(centeredStr); // Output: '--centered--'
 **Usage:**
 
 ```javascript
-const { count } = require('string-methods');
+const { count } = require('node-string-methods');
 
 const str = 'hello, hello, world!';
 const substring = 'hello';
@@ -95,7 +95,7 @@ console.log(occurrences); // Output: 2
 **Usage:**
 
 ```javascript
-const { encode } = require('string-methods');
+const { encode } = require('node-string-methods');
 
 const str = '<div>Hello, world!</div>';
 const encodedStr = encode(str);
@@ -109,7 +109,7 @@ console.log(encodedStr); // Output: '&lt;div&gt;Hello, world!&lt;/div&gt;'
 **Usage:**
 
 ```javascript
-const { endsWith } = require('string-methods');
+const { endsWith } = require('node-string-methods');
 
 const str = 'Hello, world!';
 const suffix = 'world!';
@@ -124,7 +124,7 @@ console.log(result); // Output: true
 **Usage:**
 
 ```javascript
-const { expandTabs } = require('string-methods');
+const { expandTabs } = require('node-string-methods');
 
 const str = 'Hello\tworld!\t\tThis is a test.';
 const tabWidth = 4;
@@ -142,7 +142,7 @@ Hello   world!      This is a test.
 **Usage:**
 
 ```javascript
-const { find } = require('string-methods');
+const { find } = require('node-string-methods');
 
 const str = 'Hello, world!';
 const substring = 'world';
@@ -157,7 +157,7 @@ console.log(index); // Output: 7
 **Usage:**
 
 ```javascript
-const { format } = require('string-methods');
+const { format } = require('node-string-methods');
 
 const template = 'Hello, {name}! You are {age} years old.';
 const data = { name: 'John', age: 30 };
@@ -172,7 +172,7 @@ console.log(formattedStr); // Output: 'Hello, John! You are 30 years old.'
 **Usage:**
 
 ```javascript
-const { isAlnum } = require('string-methods');
+const { isAlnum } = require('node-string-methods');
 
 const str = 'Hello123';
 const result = isAlnum(str);
@@ -186,7 +186,7 @@ console.log(result); // Output: true
 **Usage:**
 
 ```javascript
-const { isAlpha } = require('string-methods');
+const { isAlpha } = require('node-string-methods');
 
 const str = 'Hello';
 const result = isAlpha(str);
@@ -200,7 +200,7 @@ console.log(result); // Output: true
 **Usage:**
 
 ```javascript
-const { isAscii } = require('string-methods');
+const { isAscii } = require('node-string-methods');
 
 const str = 'Hello, world!';
 const result = isAscii(str);
@@ -214,7 +214,7 @@ console.log(result); // Output: true
 **Usage:**
 
 ```javascript
-const { isDecimal } = require('string-methods');
+const { isDecimal } = require('node-string-methods');
 
 const str = '42.123';
 const result = isDecimal(str);
@@ -228,7 +228,7 @@ console.log(result); // Output: true
 **Usage:**
 
 ```javascript
-const { isDigit } = require('string-methods');
+const { isDigit } = require('node-string-methods');
 
 const str = '12345';
 const result = isDigit(str);
@@ -242,7 +242,7 @@ console.log(result); // Output: true
 **Usage:**
 
 ```javascript
-const { isIdentifier } = require('string-methods');
+const { isIdentifier } = require('node-string-methods');
 
 const identifier = 'myVariable123';
 const result = isIdentifier(identifier);
@@ -256,7 +256,7 @@ console.log(result); // Output: true
 **Usage:**
 
 ```javascript
-const { isLower } = require('string-methods');
+const { isLower } = require('node-string-methods');
 
 const str = 'hello';
 const result = isLower(str);
@@ -270,7 +270,7 @@ console.log(result); // Output: true
 **Usage:**
 
 ```javascript
-const { isNumeric } = require('string-methods');
+const { isNumeric } = require('node-string-methods');
 
 const str = '12345';
 const result = isNumeric(str);
@@ -284,7 +284,7 @@ console.log(result); // Output: true
 **Usage:**
 
 ```javascript
-const { isSpace } = require('string-methods');
+const { isSpace } = require('node-string-methods');
 
 const str = '    \t  ';
 const result = isSpace(str);
@@ -298,7 +298,7 @@ console.log(result); // Output: true
 **Usage:**
 
 ```javascript
-const { isTitle } = require('string-methods');
+const { isTitle } = require('node-string-methods');
 
 const str = 'This Is Title Case';
 const result = isTitle(str);
@@ -312,7 +312,7 @@ console.log(result); // Output: true
 **Usage:**
 
 ```javascript
-const { isUpper } = require('string-methods');
+const { isUpper } = require('node-string-methods');
 
 const str = 'HELLO';
 const result = isUpper(str);
@@ -326,7 +326,7 @@ console.log(result); // Output: true
 **Usage:**
 
 ```javascript
-const { join } = require('string-methods');
+const { join } = require('node-string-methods');
 
 const arr = ['apple', 'banana', 'cherry'];
 const separator = ', ';
@@ -341,7 +341,7 @@ console.log(result); // Output: 'apple, banana, cherry'
 **Usage:**
 
 ```javascript
-const { leftJustify } = require('string-methods');
+const { leftJustify } = require('node-string-methods');
 
 const str = 'left';
 const width = 10;
@@ -357,7 +357,7 @@ console.log(result); // Output: 'le'
 **Usage:**
 
 ```javascript
-const { lower } = require('string-methods');
+const { lower } = require('node-string-methods');
 
 const str = 'Hello, World!';
 const result = lower(str);
@@ -371,7 +371,7 @@ console.log(result); // Output: 'hello, world!'
 **Usage:**
 
 ```javascript
-const { leftStrip } = require('string-methods');
+const { leftStrip } = require('node-string-methods');
 
 const str = '   Hello, World!';
 const result = leftStrip(str);
@@ -385,7 +385,7 @@ console.log(result); // Output: 'Hello, World!'
 **Usage:**
 
 ```javascript
-const { makeTrans } = require('string-methods');
+const { makeTrans } = require('node-string-methods');
 
 const str = 'Hello, World!';
 const translationTable = { 'H': 'h', 'W': 'w' };
@@ -400,7 +400,7 @@ console.log(result); // Output: 'hello, world!'
 **Usage:**
 
 ```javascript
-const { partition } = require('string-methods');
+const { partition } = require('node-string-methods');
 
 const str = 'apple,banana,cherry';
 const separator = ',';
@@ -415,7 +415,7 @@ console.log(result); // Output: ['apple', ',', 'banana,cherry']
 **Usage:**
 
 ```javascript
-const { replace } = require('string-methods');
+const { replace } = require('node-string-methods');
 
 const str = 'Hello, World!';
 const substring = 'World';
@@ -431,7 +431,7 @@ console.log(result); // Output: 'Hello, Universe!'
 **Usage:**
 
 ```javascript
-const { rightFind } = require('string-methods');
+const { rightFind } = require('node-string-methods');
 
 const str = 'apple, banana, cherry, apple';
 const substring = 'apple';
@@ -446,7 +446,7 @@ console.log(result); // Output: 21
 **Usage:**
 
 ```javascript
-const { rightIndex } = require('string-methods');
+const { rightIndex } = require('node-string-methods');
 
 const str = 'apple, banana, cherry, apple';
 const substring = 'apple';
@@ -461,7 +461,7 @@ console.log(result); // Output: 21
 **Usage:**
 
 ```javascript
-const { rightJustify } = require('string-methods');
+const { rightJustify } = require('node-string-methods');
 
 const str = 'right';
 const width = 10;
@@ -477,7 +477,7 @@ console.log(result); // Output:--right'
 **Usage:**
 
 ```javascript
-const { rightPartition } = require('string-methods');
+const { rightPartition } = require('node-string-methods');
 
 const str = 'apple,banana,cherry';
 const separator = ',';
@@ -492,7 +492,7 @@ console.log(result); // Output: ['apple,banana', ',', 'cherry']
 **Usage:**
 
 ```javascript
-const { rightStrip } = require('string-methods');
+const { rightStrip } = require('node-string-methods');
 
 const str = 'Hello, World!   ';
 const result = rightStrip(str);
@@ -506,7 +506,7 @@ console.log(result); // Output: 'Hello, World!'
 **Usage:**
 
 ```javascript
-const { split } = require('string-methods');
+const { split } = require('node-string-methods');
 
 const str = 'apple,banana,cherry';
 const separator = ',';
@@ -521,7 +521,7 @@ console.log(result); // Output: ['apple', 'banana', 'cherry']
 **Usage:**
 
 ```javascript
-const { splitLines } = require('string-methods');
+const { splitLines } = require('node-string-methods');
 
 const str = 'Line 1\nLine 2\nLine 3';
 const result = splitLines(str);
@@ -535,7 +535,7 @@ console.log(result); // Output: ['Line 1', 'Line 2', 'Line 3']
 **Usage:**
 
 ```javascript
-const { startsWith } = require('string-methods');
+const { startsWith } = require('node-string-methods');
 
 const str = 'Hello, World!';
 const prefix = 'Hello';
@@ -550,7 +550,7 @@ console.log(result); // Output: true
 **Usage:**
 
 ```javascript
-const { strip } = require('string-methods');
+const { strip } = require('node-string-methods');
 
 const str = '   Hello, World!   ';
 const result = strip(str);
@@ -564,7 +564,7 @@ console.log(result); // Output: 'Hello, World!'
 **Usage:**
 
 ```javascript
-const { swapCase } = require('string-methods');
+const { swapCase } = require('node-string-methods');
 
 const str = 'Hello, World!';
 const result = swapCase(str);
@@ -578,7 +578,7 @@ console.log(result); // Output: 'hELLO, wORLD!'
 **Usage:**
 
 ```javascript
-const { title } = require('string-methods');
+const { title } = require('node-string-methods');
 
 const str = 'hello world';
 const result = title(str);
@@ -592,7 +592,7 @@ console.log(result); // Output: 'Hello World'
 **Usage:**
 
 ```javascript
-const { upper } = require('string-methods');
+const { upper } = require('node-string-methods');
 
 const str = 'Hello, World!';
 const result = upper(str);
@@ -605,7 +605,7 @@ console.log(result); // Output: 'HELLO, WORLD!'
 **Usage**:
 
 ```javascript
-const { zeroFill } = require('string-methods');
+const { zeroFill } = require('node-string-methods');
 
 const num = 42;
 const width = 5;
